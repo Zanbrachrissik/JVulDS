@@ -8,11 +8,14 @@ sudo pip3 install keras
 ```
 ## Description
 **1. dl_model**
+
 models of deep learning.
+
 **2. execFiles**
+
 (1) detectVul.py: use args as input, the result.csv as output.
 
-(2) get_slice.py: generate slices of every vulnerability type to slice directory.
+(2) get_slice.py: generate slices of every vulnerability type to slice directory, you need modify password of Neo4j password.
 
 (3) process_slice.py：generate the input of word2vec to corpus directory.
 
