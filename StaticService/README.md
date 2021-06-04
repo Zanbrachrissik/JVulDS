@@ -5,7 +5,7 @@ JDK Version 8+
 ```
 Input: -d [projectPath]
 ```
-2. Configuration File
+2. Configuration Files
 ```
 Class: com.snail.dldetectvul.Config
 fixedFilePath: the path of DeepLearningFiles
