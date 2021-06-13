@@ -13,11 +13,15 @@ JVulDS is used for Linux or Mac os.
 
 1. Install [Neo4j database](https://neo4j.com/download/) and open Neo4j database
 ```
-cd ./neo4j/bin
-./neo4j console
+$ cd ./neo4j/bin
+$ ./neo4j console
 ```
 2. Run PDG framework
-3. Run StaticService
+```
+$ cd PDG/target
+$ java -jar demo-0.0.1-SNAPSHOT.jar
+```
+4. Run StaticService
 ```
 Main class: com.snail.dldetectvul.run.VulDeePackerStaticService
 args: -d projectPath
