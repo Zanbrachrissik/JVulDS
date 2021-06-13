@@ -2,9 +2,9 @@
 neo4j-chs-community-3.5.19-unix, python 3.8.2, py2neo 2021.0.1, keras 2.4.3, gensim 3.8.3
 ```
 # cmd
-sudo pip3 install gensim
-sudo pip3 install py2neo==2021.0.1
-sudo pip3 install keras
+$ sudo pip3 install gensim
+$ sudo pip3 install py2neo==2021.0.1
+$ sudo pip3 install keras
 ```
 ## Description
 **1. dl_model**
@@ -26,3 +26,11 @@ models of deep learning.
 (6) bgru.py: use train dataset to train bgru model.
  
 (7) testModel.py: use test dataaset to predict model.
+
+**3. softwareTempFiles**
+
+the intermediate files for deep learning and the result of detecting vulnerablities.
+
+**4. word2vec_input**
+
+the input files for cross training of word2vec.
