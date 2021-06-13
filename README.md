@@ -18,11 +18,18 @@ $ ./neo4j console
 ```
 2. Run PDG framework
 ```
+$ maven clean package
 $ cd PDG/target
 $ java -jar demo-0.0.1-SNAPSHOT.jar
 ```
 4. Run StaticService
+1）modify Config class (as shown StaticService/README.md)
+2) 
+```
+$ maven clean package
+$ cd target
+$ java -jar demo-0.0.1-SNAPSHOT.jar -d projectPath
+```
 ```
 Main class: com.snail.dldetectvul.run.VulDeePackerStaticService
-args: -d projectPath
 ```
